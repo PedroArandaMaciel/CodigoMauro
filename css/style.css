@@ -1,0 +1,173 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contGrid { 
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.contGrid > .producto {
+
+    width: 300px;
+    height: 600px;
+    border: solid;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+
+
+.contGrid > .producto > .imgCont img {
+    width: 300px;
+
+    position: relative;
+    overflow: hidden;
+
+}
+
+.contGrid > .producto >.contenido { 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contGrid > .producto >.contenido p {
+
+    font-size: 2rem;
+}
+
+.contGrid > .producto >.contenido button {
+    cursor: pointer;
+    padding: 5px;
+    background: none;
+    border: solid 2px black;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.contGrid > .producto >.contenido h2 {
+    font-size: 30px;
+}
+
+.carrito { 
+    display: flex;
+    justify-content: center;
+}
+
+table { 
+    border: solid 2px black;
+    overflow: hidden;
+    margin: 20px;
+    padding: 5px;
+}
+
+.tableTitle {
+    font-size: 2rem;
+    margin: 2px;
+    padding: 2px 50px;
+}
+
+.carrito > .comprarTodo {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+
+.form {
+    width: 400px;
+    height: 340px;
+    background: grey;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px black;
+    padding: 20px 30px;
+}
+
+.form > h2 { 
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.inputCampo {
+    width: 100%;
+    border: 1px solid white;
+    background: lightgrey;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    font-size: 14px;
+}
+
+.btnIngresar {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.btnRegistrar {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+
+
+}
+
+.form > p {
+height: 40px;
+text-align: center;
+border-bottom: 1px solid ;
+padding-top: 10px;
+
+}
+
+.form a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.colorFlip {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: black;
+    color: white;
+
+}
+
+.color {
+    color: aqua;
+}
+
+.buttonColor{
+    text-transform: uppercase;
+    margin: 0 20px;
+    background: grey;
+    cursor: pointer;
+}
+
+
+
+  
+
+
+
+
