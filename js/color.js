@@ -1,22 +1,32 @@
 
-const colors = ['#FF5733', '#33FF8A', '#3333FF'];
- 
- 
- 
-    const btnColor = document.getElementById('btnColor');
-    const color = document.querySelector('.color');
+const colors = ['#FF5733', '#33FF8A', '#3333FF', '#FFFFFF'];
+
+let index = 0
+const btnColor = document.getElementById("btnColor")
+btnColor.addEventListener("click", () => {
+    if (index >= colors.length) {
+        index = 0
+    }
+    document.body.style.backgroundColor = colors[index];
+    index++
+})
 
 
-    btnColor.addEventListener ('click', () => {
-        const numeroRandom = getNumeroRandom();
+/*
+   const btnColor = document.getElementById('btnColor');
+   const color = document.querySelector('.color');
 
 
-        document.body.style.backgroundColor = colors[numeroRandom];
-        color.textContent = color [numeroRandom];
-    });
+   btnColor.addEventListener ('click', () => {
+       const numeroRandom = getNumeroRandom();
+
+
+       document.body.style.backgroundColor = colors[numeroRandom];
+       color.textContent = color [numeroRandom];
+   });
 
 
 getNumeroRandom = () => {
-    return Math.floor(Math.random()*colors.length);
-};
+   return Math.floor(Math.random()*colors.length);
+};*/
 

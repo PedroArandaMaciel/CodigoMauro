@@ -3,8 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
+.tamañoImg{
+    height: 100px;
+    width: 100px;
+}
 .contGrid { 
 
     display: flex;

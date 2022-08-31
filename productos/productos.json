@@ -3,7 +3,7 @@
         "nombre": "Remera Diamond",
         "precio": 2500,
         "talle": "XL,L,S,M",
-        "img": "../img/remera1.png"
+        "img": "./img/remera1.png"
 
     },
 
@@ -11,14 +11,14 @@
         "nombre": "Gorra",
         "precio": 2000,
         "talle": "1,2,3",
-        "img": "../img/gorra1.jpeg"
+        "img": "./img/gorra1.jpeg"
 
     },
     {
         "nombre": "Remera University",
         "precio": 2800,
         "talle": "XL,L",
-        "img": "../img/uni.png"
+        "img": "./img/uni.png"
 
     },
 
@@ -26,7 +26,7 @@
         "nombre": "Campera",
         "precio": 5000,
         "talle": "XL",
-        "img": "../img/campe1.jpeg"
+        "img": "./img/campe1.jpeg"
     }
 
 
